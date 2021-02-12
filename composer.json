@@ -1,0 +1,42 @@
+{
+  "name": "triple-nerd-score/wrike-php-guzzle",
+  "description": "HTTP Client and exception transformer adapter for Wrike PHP Library, based on Guzzle package",
+  "keywords": [
+    "wrike",
+    "wrike.com",
+    "api",
+    "sdk",
+    "library",
+    "guzzle",
+    "client",
+    "REST",
+    "HTTP",
+    "php"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zbigniew Ślązak"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "triple-nerd-score/wrike-php-library": "@dev",
+    "guzzlehttp/guzzle": ">=6.0,<7.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=6.0,<8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TripleNerdScore\\WrikePhpGuzzle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TripleNerdScore\\WrikePhpGuzzle\\Tests\\": "tests/"
+    }
+  }
+}
