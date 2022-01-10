@@ -38,11 +38,5 @@
     "psr-4": {
       "Zibios\\WrikePhpGuzzle\\Tests\\": "tests/"
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:punchlistlabs/wrike-php-library.git"
-    }
-  ]
+  }
 }
