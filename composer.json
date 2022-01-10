@@ -22,7 +22,7 @@
   ],
   "require": {
     "php": "^7.4",
-    "zibios/wrike-php-library": "*",
+    "zibios/wrike-php-library": "1.0.1",
     "guzzlehttp/guzzle": "^7",
     "ext-json": "*"
   },
