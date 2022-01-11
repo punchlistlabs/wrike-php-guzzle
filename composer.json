@@ -23,7 +23,7 @@
   "require": {
     "php": ">=7.1",
     "triple-nerd-score/wrike-php-library": "@dev",
-    "guzzlehttp/guzzle": "^7.0",
+    "guzzlehttp/guzzle": "^6",
     "ext-json": "*"
   },
   "require-dev": {
